@@ -6,9 +6,9 @@ from threading import Lock
 import time
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-BOT_TOKEN = "TOKEN AQUI"
-ADMIN_ID = 7178876305
-START_PY_PATH = "/workspaces/MHDDoS/start.py"
+BOT_TOKEN = "7306937849:AAFu9rijHh-t8u1cItQFNJx2CLocQ6xVtYw"
+ADMIN_ID = 6990643296
+START_PY_PATH = "/workspaces/abibb/start.py"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 db_lock = Lock()
